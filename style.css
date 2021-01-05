@@ -1,8 +1,13 @@
 p {
  font-family: helvetica;
- font-size: 60px;
+ font-size: 50px;
  font-weight: strong;
- color: orange;
+ color: blue;
  
 }
 
+td { 
+    font-family: courier;
+    font-size: 20px;
+    color: red;
+}
