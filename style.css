@@ -6,7 +6,7 @@ p {
  
 }
 
-td { 
+#tablefont { 
     font-family: courier;
     font-size: 20px;
     color: red;
