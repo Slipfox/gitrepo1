@@ -21,27 +21,30 @@ h2 {
 
 ul {
     list-style-type: none;
-    font-family: Georgia;
-    font-weight: strong;
+
     
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: SeaGreen;
+    background-color: gray;
   }
   
   li {
     float: left;
+    font-family: Georgia;
+    font-weight: strong;
   }
   
   li a {
     display: block;
     color: white;
+    font-family: Verdana;
+    font-size: 20px;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 12px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: deepskyblue;
   }
