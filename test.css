@@ -1,13 +1,14 @@
-body {
+bbody {
 	background-color: #232323;
 }
 
 .glitch {
-	 
-	font-size: 8.125em;
-	font-family: "Raleway", sans-serif;
-	font-weight: 700;
-    text-decoration: none;
+	font: {
+		size: 8.125em;
+		family: 'Raleway', sans-serif;
+		weight: 700;
+	}
+	text-decoration: none;
 	text-transform: uppercase;
 	position: absolute;
 	top: 50%;
@@ -16,7 +17,7 @@ body {
 	margin: 0;
 	color: #fff;
 	letter-spacing: 5px;
-}
+	
 	&:before, &:after {
 		display: block;
 		content: attr(data-glitch);
