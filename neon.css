@@ -262,7 +262,8 @@ li a {
 }
 
 li a:hover {
-  color: ghostwhite;
+  color: ghostwhite
+ 
 }
 
 li:last-child {
