@@ -16,6 +16,23 @@ body {
 	color: #fff;
 	letter-spacing: 5px;
   }
+
+  .glitchspan {
+	font-size: 8.125em;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	color: #f0f;
+	letter-spacing: 5px;
+  }
+
+
   .glitch:before, .glitch:after {
 	display: block;
 	content: attr(data-glitch);
