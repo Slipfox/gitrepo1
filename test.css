@@ -1,7 +1,16 @@
 body {
 	background-color: #232323;
+	overflow: hidden;
   }
 
+  .box {
+    position:relative;
+}
+.bet_time {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
 h1 { 
 	font-size: 2.0em;
 	font-family: "Raleway", sans-serif;
@@ -29,11 +38,11 @@ h1 {
 	font-weight: 700;
 	text-decoration: none;
 	text-transform: uppercase;
-	position: absolute;
-	top: 80%;
-	left: 83%;
-	transform: translate(-50%, -50%);
+    position:absolute;
+    bottom: 0;
+    right: 10px;
 	margin: 0;
+	width: 600px;
 	color: #fff;
 	letter-spacing: 5px;
   }
